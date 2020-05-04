@@ -121,9 +121,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #ff9072;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #ff9072;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -132,16 +132,16 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #ff9072;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #ff9072;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -150,7 +150,7 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 	text-decoration: none;
 }
 
@@ -168,17 +168,17 @@ a.white {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #ff9072;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #00c9db;
+	background-color: #ff9072;
 	color: #fff;
 	text-decoration: none;
 }
@@ -186,17 +186,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #ff9072;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #00c9db;
+	background-color: #ff9072;
 	color: #fff;
 	text-decoration: none;
 }
@@ -204,17 +204,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.875rem 1.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #ff9072;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 	font: 700 0.625rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #00c9db;
+	background-color: #ff9072;
 	color: #fff;
 	text-decoration: none;
 }
@@ -362,9 +362,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 50%;
 	height: 3.125rem;
-	border: 1px solid #00c9db;
+	border: 1px solid #ff9072;
 	border-radius: 1.5rem;
-	background-color: #00c9db;
+	background-color: #ff9072;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -373,7 +373,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 }
 
 
@@ -383,9 +383,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 50%;
 	height: 3.125rem;
-	border: 1px solid #00c9db;
+	border: 1px solid #ff9072;
 	border-radius: 1.5rem;
-	background-color: #00c9db;
+	background-color: #ff9072;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
@@ -394,7 +394,7 @@ input[type='checkbox'] {
 
 .form-control-annulla-button:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 }
 
 /* Form Success And Error Message Formatting */
@@ -646,7 +646,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
+	background-color: #f9375a;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s;
@@ -672,14 +672,14 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0 0.75rem 0 0.75rem;
-	color: #fff;
+	color: white;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #00c9db;
+	color: white;
 }
 
 /* Dropdown Menu */
@@ -707,7 +707,8 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #4633af;
+	background-color: #f9375a;
+
 }
 
 .navbar-custom .dropdown-item {
@@ -716,7 +717,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #4633af;
+	background-color: #f9375a;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -724,7 +725,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #00c9db;
+	color: #ff9072;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -788,7 +789,7 @@ input[type='checkbox'] {
 }
 
 .header #js-rotating {
-	color: #40e0ee;
+	color: #ff9072;
 }
 
 .header .p-large {
@@ -868,7 +869,8 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #2f2c3d;
+	background-color: #f9375a;
+
 }
 
 .tabs h2 {
@@ -902,9 +904,9 @@ input[type='checkbox'] {
 
 .tabs .nav-link.active,
 .tabs .nav-link:hover {
-	border-bottom: 0.1875rem solid #00c9db;
+	border-bottom: 0.1875rem solid #ff9072;
 	background-color: transparent;
-	color: #00c9db;
+	color: #ff9072;
 }
 
 .tabs .nav-link .fas {
@@ -934,7 +936,7 @@ input[type='checkbox'] {
 	width: 3.5rem;
 	height: 3.5rem;
 	border-radius: 50%;
-	background-color: #00c9db;
+	background-color: #f9375a;
 	text-align: center;
 	vertical-align: top;
 }
@@ -1120,7 +1122,8 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 8rem;
 	padding-bottom: 3.5rem;
-	background-color: #262431;
+	background-color: #ff9072;
+
 }
 
 .basic-2 img {
@@ -1142,7 +1145,8 @@ input[type='checkbox'] {
 .basic-3 {
 	padding-top: 3.5rem;
 	padding-bottom: 7.25rem;
-	background-color: #262431;
+	background-color: #ff9072;
+
 }
 
 .basic-3 .text-container {
@@ -1167,7 +1171,8 @@ input[type='checkbox'] {
 	margin: 2.5rem auto;
 	padding: 3rem 1rem;
 	border-radius: 0.25rem;
-	background-color: #2f2c3d;
+	background-color: #e04d09;
+
 	text-align: left;
 }
 
@@ -1316,7 +1321,8 @@ input[type='checkbox'] {
 .counter {
 	padding-top: 6.5rem;
 	padding-bottom: 5.375rem;
-	background-color: #262431;
+	background-color: #e04d09;
+
 	text-align: center;
 }
 
@@ -1455,13 +1461,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;
+	background: #ffffff url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #36edfd; 
+	background-color: #ffffff; 
 }
 
 
@@ -1509,7 +1515,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #00c9db;
+	color:#ff9072;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1580,14 +1586,14 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
-	.navbar-custom .nav-item .nav-link.active {
-		color: #00c9db;
+	.navbar-custom .top-nav-item .nav-link.active {
+		color: #ff9072;
 	}
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #4633af;
+		background-color: #f9375a;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1599,8 +1605,8 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
-	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00c9db;
+	.navbar-custom.nav-collapse .nav-item .nav-link.active {
+		color: #ff9072;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1765,21 +1771,21 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #00c9db;
+		color: white;
 		transition: all 0.2s ease;
 	}
 	
 	.navbar-custom .fa-stack-1x {
-		color: #fff;
+		color: #ff9072;
 		transition: all 0.2s ease;
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-2x {
-		color: #fff;
+		color: #ff9072;
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00c9db;
+		color:white;
 	}
 	/* end of navigation */
 
