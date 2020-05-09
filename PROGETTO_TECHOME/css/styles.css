@@ -1348,6 +1348,24 @@ input[type='checkbox'] {
 	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
 	vertical-align: middle;
 }
+/***********************/
+/*       HOMESTYLE     */
+/***********************/
+.HOME{
+	text-align: center;
+	padding-top: 2rem;
+	background-color: #262431;
+}
+.hometxt{
+	padding-left:200px;
+	padding-right: 200px;
+	text-align: center;	
+	font: 1rem "Open Sans", sans-serif;
+}
+.logo-text{
+	padding-left: center;
+	width:40%
+}
 
 
 /***********************/
@@ -1357,21 +1375,22 @@ input[type='checkbox'] {
 	background-color: #262431;
 	text-align: center;
 	font: 1.25rem "Open Sans", sans-serif;
-	padding-top: 1rem;
-	padding-bottom: 5rem;
-	position: relative;
-
 }
 
 .immaginetonda {
 	border-radius: 50%;	
-	width: 7rem;
-	height: 7rem;
+	padding:1rem;
+	width: 200px;
+	height: 200px;
 
+}
+.titoli{
+	padding-left: center;
+	width:60%
 }
 
 .testowho {
-	padding-top: 2rem;
+	padding:1rem;
 	color:white;
 	text-align: center;
 	font: 1rem "Open Sans", sans-serif;
@@ -1380,20 +1399,22 @@ input[type='checkbox'] {
 /*     16. Contact     */
 /***********************/
 .CONTATTACI{
-	position: relative;
 	background-color: #262431;
-	
+	text-align: center;		
+}
+.textcontact{
+	font: 1.25rem "Open Sans", sans-serif;
+	padding-bottom: 2rem;
 }
 
 
 .context{
-	
-	text-align: center;
+	width: fit-content;
 	border-style: double;
 	border-color:  #ff9072;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	font: 1.25rem "Open Sans", sans-serif;	
+	padding: 1rem;
+	text-align: center;
+	font: 1rem "Open Sans", sans-serif;	
 
 }
 
@@ -1485,7 +1506,7 @@ input[type='checkbox'] {
 /*     17. Copyright     */
 /*************************/
 .copyright {
-	padding-top: 5rem;
+	padding-top: 4rem;
 	background-color: #262431;
 	text-align: center;
 }
