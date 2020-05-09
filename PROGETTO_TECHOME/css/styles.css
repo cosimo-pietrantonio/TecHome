@@ -591,7 +591,9 @@ input[type='checkbox'] {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #2f2c3d;
+	background-image: url('../images/loading-background.jpg');
+	background-size: cover;
+
 }
 
 .spinner {
@@ -653,8 +655,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-	height: 34px;
+    width: 135px;
+	height: 40px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
@@ -1346,11 +1348,77 @@ input[type='checkbox'] {
 	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
 	vertical-align: middle;
 }
+/***********************/
+/*       HOMESTYLE     */
+/***********************/
+.HOME{
+	text-align: center;
+	padding-top: 2rem;
+	background-color: #262431;
+}
+.hometxt{
+	padding-left:200px;
+	padding-right: 200px;
+	text-align: center;	
+	font: 1rem "Open Sans", sans-serif;
+}
+.logo-text{
+	padding-left: center;
+	width:40%
+}
 
 
+/***********************/
+/*       CHI SIAMO     */
+/***********************/
+.PRESENTAZIONE{
+	background-color: #262431;
+	text-align: center;
+	font: 1.25rem "Open Sans", sans-serif;
+}
+
+.immaginetonda {
+	border-radius: 50%;	
+	padding:1rem;
+	width: 200px;
+	height: 200px;
+
+}
+.titoli{
+	padding-left: center;
+	width:60%
+}
+
+.testowho {
+	padding:1rem;
+	color:white;
+	text-align: center;
+	font: 1rem "Open Sans", sans-serif;
+}
 /***********************/
 /*     16. Contact     */
 /***********************/
+.CONTATTACI{
+	background-color: #262431;
+	text-align: center;		
+}
+.textcontact{
+	font: 1.25rem "Open Sans", sans-serif;
+	padding-bottom: 2rem;
+}
+
+
+.context{
+	width: fit-content;
+	border-style: double;
+	border-color:  #ff9072;
+	padding: 1rem;
+	text-align: center;
+	font: 1rem "Open Sans", sans-serif;	
+}
+
+
+
 .form {
 	padding-top: 6.25rem;
 	padding-bottom: 5.625rem;
@@ -1437,8 +1505,7 @@ input[type='checkbox'] {
 /*     17. Copyright     */
 /*************************/
 .copyright {
-	padding-top: 1rem;
-	padding-bottom: 0.5rem;
+	padding-top: 4rem;
 	background-color: #262431;
 	text-align: center;
 }
