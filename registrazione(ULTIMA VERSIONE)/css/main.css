@@ -1,0 +1,304 @@
+
+/* ==========================================================================
+   #FONT
+   ========================================================================== */
+/*  
+    DEFINIZIONE DI font-family:
+    The font-family property specifies the font for an element.
+    The font-family property can hold several font names as a "fallback" system. 
+    If the browser does not support the first font, it tries the next font.
+    FONTE:https://www.w3schools.com/
+*/
+.font-robo {
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+a 
+{
+  color:#ccc;
+  scroll-behavior: smooth;
+}
+
+a:hover
+{
+  color:#ff9072;
+}
+
+body 
+{
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+
+/* ==========================================================================
+   #SPACING: Classi utili per definire i vari padding per gli elementi
+   ========================================================================== */
+.p-t-300 {
+  padding-top: 300px;
+}
+
+.p-t-180 
+{
+  padding-top: 180px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.p-b-150 {
+  padding-bottom: 150px;
+}
+
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+.wrapper 
+{
+  /*The CSS margin properties are used to create space around elements, outside of any defined borders.
+    CSS has properties for specifying the margin for each side of an element: margin-top, margin-right, margin-bottom, margin-left
+    
+    All the margin properties can have the following values:
+    auto - the browser calculates the margin
+    length - specifies a margin in px, pt, cm, etc.
+    % - specifies a margin in % of the width of the containing element
+    inherit - specifies that the margin should be inherited from the parent element
+
+    FONTE: https://www.w3schools.com/
+  */
+  margin: 0 auto;
+}
+
+.wrapper--w780 
+{
+  /*The max-width property defines the maximum width of an element.
+    If the content is larger than the maximum width, it will automatically change the height of the element.
+    If the content is smaller than the maximum width, the max-width property has no effect.
+
+    FONTE: https://www.w3schools.com/
+   */
+  max-width: 780px;
+}
+
+.wrapperM
+{
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 150%;
+  position: absolute;
+  margin: 230px 2px;
+  width: 25%;
+  color: #ccc;
+  background: transparent;
+  font-size: medium;
+}
+
+
+/* ==========================================================================
+   #BACKGROUND
+   ========================================================================== */
+
+   .bg-gra-01 /*Colore di sfondo di tutta la pagina registrazione*/
+   {
+     background: linear-gradient(to bottom,#262431,#262431);
+   }
+
+/* ==========================================================================
+   #CARD
+   ========================================================================== */
+
+.card-3  /* Questa è la card principale che contiene al suo interno due card: card body e card heading*/
+{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px -5px #ff9072;  /* Serve per dare un effetto 3D al box generando un ombra di colore #ff9072 (arancione)*/
+  width: 100%;
+  display: table;
+}
+
+.card-heading /* Questa è la card di sinistra interna a card-3. Contiene il logo. */ 
+{
+  background: url(../images/logo.png) no-repeat center;
+  display: table-cell;
+  border-right-color: #ff9072;
+  border-width: thin;
+  border-right-style:double;
+  width: 51.5%;
+}
+
+.card-support
+{
+  background-position-y: 100px;
+}
+
+.card-body /* Questa è la card interna a card-3 posta a destra. Cotiene il form per la registrazione. */ 
+{
+  padding: 57px 65px;
+  padding-bottom: 65px;
+  display: table-cell;
+}
+
+
+/* ==========================================================================
+   #TITLE
+   ========================================================================== */
+   .title {
+    font-size: 24px;
+    color: #ff9072;
+    font-weight: 400;
+    margin-bottom: 36px;
+  }
+
+
+  /* ==========================================================================
+   #FORM
+   ========================================================================== */
+   
+input /*selettore input, agisce su tutti i tag input*/
+{
+  border: none;
+  box-shadow: none;  /* mette in rilievo un elemento e crea un ombra */
+}
+
+.input-group /* Classe che definisce: la distanza tra gli elementi del form (margin-bottom); spessore e colore dei singoli elementi (border-bottom)*/
+{
+  position: relative;
+  margin-bottom: 35px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Le pseudoclassi che seguono servono per:
+   1- disabilitare i contorni di selezione delle caselle di testo quando c'è un click sulla casella (pseudoclasse focus)
+   2- cambiare il colore degli elementi del form al passaggio del mouse (hover)
+*/
+
+input:focus
+{
+  outline: none; /*disabilita il focus outline degli input (il riquadro blu che compare al click con il mouse)*/
+}
+
+.input-group:hover
+{
+  border-bottom: 1px solid #ff9072;
+}
+
+.input--style-3 /*defiisce la posizione dei contenuti degli elemnti ad esempio un casella di testo con all'interno scritto 'ciao'*/
+{
+  /*Con il padding definiamo, qunato questa scritta deve essere distante dai bordi dell'elemento (padding-left, padding top,
+  padding-bottom e padding-right oppure semplicemente padding)
+  La sintassi di base per questa proprietà è la seguente:
+
+  selettore
+  {
+    padding: valore-1, valore-2, valore-3, valore-4;
+  }
+
+  Si possno usare tre, due o un solo valore. Queste le regole:
+
+  se si usano tre valori, il primo si riferisce al margine superiore, il secondo a quelli sinistro e destro, il terzo a quello inferiore;
+  se si usano due valori, il primo si riferisce ai lati superiore e inferiore, il secondo al sinistro e al destro;
+  se si usa un solo valore, un uguale distanza sarà applicata ai quattro lati.*/
+  padding: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+  background: transparent;
+}
+
+::placeholder /*tramite questa funzione riusciamo ad accedere ad ogni placeholder di qualsiasi elemento che lo contiene e impostarne le propiretà che seguono
+                se vogliamo che solo alcuni placeholde abbiano le seguenti caratteristiche basta specificare il selettore prima della sintassi ad esempio
+                se vogliamo che solo i placeholder dei campi di input abbiano queste caratteristiche basta scrivere input::placeholder ancora più nello specifico
+                si possono usare gli id o le classi per applicare a piacere sugli elementi che voglimao queste caratteristiche*/
+{
+  color: #ccc;
+}
+
+/* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+ 
+   #sc:hover /*tramite questa pseudoclasse definiamo cosa succede quando passiamo col il mouse da sopra il bottone*/
+   {
+    background-color: #ff9072;
+    color: #000;
+    border:solid;
+    border-width: 1px;
+  }
+  #so:hover /*tramite questa pseudoclasse definiamo cosa succede quando passiamo col il mouse da sopra il bottone*/
+  {
+    background-color: #ff9072;
+    color: #000;
+    border:solid;
+    border-width: 1px;
+  }
+
+  .btn 
+  {
+    display: inline-block;
+    border: none;
+    line-height: 40px;
+    padding: 0 33px;
+    font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+    cursor: pointer;
+    color: #ff9072;
+    transition: all 0.4s ease;
+    font-size: 18px;
+  }
+  
+  .btn--smussato /*conferisce al bottone la proprietà dei bordi smussati*/
+  {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+  
+  .btn--color {
+    background-color: transparent;
+    border: solid;
+    border-color: #ff9072;
+  }
