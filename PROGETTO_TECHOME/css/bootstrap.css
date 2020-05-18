@@ -5642,13 +5642,13 @@ a.badge-dark:focus, a.badge-dark.focus {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
+  color: #fff;
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
 }
 
 .close:hover {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -5848,6 +5848,7 @@ a.close.disabled {
 }
 
 .modal-header {
+  background-color: #2f2c3d;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: start;
@@ -5861,6 +5862,8 @@ a.close.disabled {
 }
 
 .modal-header .close {
+
+
   padding: 1rem 1rem;
   margin: -1rem -1rem -1rem auto;
 }
@@ -8194,6 +8197,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
+
   padding-bottom: 3rem !important;
 }
 
@@ -10036,3 +10040,4 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
